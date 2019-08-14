@@ -1,0 +1,3 @@
+var vehicleModel = require("vehicleModel").Vehicle;
+var vehicle = new vehicleModel("BMW", "green", "2018" , "2019-07-02");
+return vehicle.getInfo();
